@@ -26,6 +26,7 @@ namespace OfflineMachine
 			// random generation of private key
 			// compute address from with generated private key:
 			// private key => public key => address (last 20 bytes of SHA256 of public key)
+			//omg
 
 			var signer = new EthereumMessageSigner();
 			String message = $"{from} {to} {nonce} {value}";
